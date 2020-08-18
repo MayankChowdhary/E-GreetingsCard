@@ -1,0 +1,46 @@
+/**
+ * WhatsApp Sharing Button
+ * https://github.com/kriskbx/whatsapp-sharing/
+ *
+ * Copyright (c) 2015 by Kris Siepert
+ *
+ * Licensed under the MIT license.
+ */
+
+
+
+.wa_btn {
+
+    background-image: url('button.svg');
+   border: 1px solid rgba(0, 0, 0, 0.1);
+    display: inline-block !important;
+    position:absolute;
+    top:111%;
+    left:30%;
+    font-family:'CheekyRabbit', Arial, sans-serif;
+    letter-spacing: .4px;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform:none;
+    color: #fff;
+    border-radius: 15px;
+    background-color:darkgreen;
+    background-repeat: no-repeat;
+    line-height: 1.2;
+    text-decoration:none;
+    text-align:center;
+    
+}
+
+
+.wa_btn_l {
+    height: 8%;
+    width: 50%;
+    font-size: 18px;
+    background-size: 28px;
+    background-position: 5px 7px;
+    padding: 8px 6px 8px 30px;
+}
+a:hover{
+    color: yellow;
+}
